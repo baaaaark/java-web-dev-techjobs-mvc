@@ -49,6 +49,7 @@ public class JobData {
      * @param value Value of the field to search for.
      * @return List of all jobs matching the criteria.
      */
+
     public static ArrayList<Job> findByColumnAndValue(String column, String value) {
 
         // load data, if not already loaded
